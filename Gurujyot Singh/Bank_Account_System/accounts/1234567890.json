@@ -1,0 +1,9 @@
+{
+    "Account Number": "1234567890",
+    "Holder Name": "Guru",
+    "Balance": 38000,
+    "Transactions": [
+        "2025-02-10 18:09:41.175342 - Deposited: Rs. 40000",
+        "2025-02-10 18:09:49.309067 - Withdrawn: Rs. 2000"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "F": {
+        "Student Name": "F",
+        "Age": 2,
+        "Marks": {
+            "Subject1": 1,
+            "Subject2": 2
+        }
+    },
+    "M": {
+        "Student Name": "M",
+        "Age": 2,
+        "Marks": {
+            "AWS": 2,
+            "Cloud": 21
+        }
+    },
+    "HARJIT": {
+        "Student Name": "HARJIT",
+        "Age": 2,
+        "Marks": {
+            "AWS": 21,
+            "Cloud": 22
+        }
+    },
+    "W": {
+        "Student Name": "W",
+        "Age": 2,
+        "Marks": {
+            "Hlo": 12
+        }
+    }
+}

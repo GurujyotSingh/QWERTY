@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arithmetic Operations</title>
+</head>
+<body>
+    <form method="GET" action="/calculate">
+        <label>Enter 1 value</label><br>
+        <input type="number" i="name" name="val1" required><br>
+        <label>Enter 2 value</label><br>
+        <input type="number" i="name" name="val2" required><br>
+        <label>Enter Operator ( add, sub , mul, div, power )</label><br>
+        <input type="text" name="op" required><br>
+        <input type="submit" value="submit"/>
+    </form>
+ <h2>Results:</h2>
+
+    <p>
+        {<br>
+         &ensp; &ensp;"Operation" : {{ op }}<br>
+         &ensp; &ensp;"Value 1 " : {{ val1 }}<br>
+         &ensp; &ensp;"Value 2 " : {{ val2 }}<br>
+         &ensp; &ensp;"Calculation" : {{ a }}<br>
+        }
+    </p>
+</body>
+</html>
